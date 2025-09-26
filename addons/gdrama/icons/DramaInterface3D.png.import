@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5vplkvwkyguq"
-path="res://.godot/imported/ConnorSpriteSheet.png-b33395259d70f4b98f2d08b083796de3.ctex"
+uid="uid://b6hvljkfvcren"
+path="res://.godot/imported/DramaInterface3D.png-a5c86a11d856f6647e331e41c01bb932.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/ConnorSpriteSheet.png"
-dest_files=["res://.godot/imported/ConnorSpriteSheet.png-b33395259d70f4b98f2d08b083796de3.ctex"]
+source_file="res://addons/gdrama/icons/DramaInterface3D.png"
+dest_files=["res://.godot/imported/DramaInterface3D.png-a5c86a11d856f6647e331e41c01bb932.ctex"]
 
 [params]
 
