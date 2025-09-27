@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://dcagiapnypxya"]
 
-[ext_resource type="Texture2D" uid="uid://d24d6jlvectxg" path="res://Assets/characters/MouseSpriteSheet.png" id="1_83owy"]
+[ext_resource type="Texture2D" uid="uid://d24d6jlvectxg" path="res://Assets/characters/mouse_sprite_sheet.png" id="1_83owy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w1350"]
 atlas = ExtResource("1_83owy")

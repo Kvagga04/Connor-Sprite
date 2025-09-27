@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ywvi4e7do50w"
-path="res://.godot/imported/MudanSprite.png-2c031eecf9db431e6ddee479c613ba9a.ctex"
+uid="uid://d24d6jlvectxg"
+path="res://.godot/imported/mouse_sprite_sheet.png-2f21e5e3dbd56f83873e719863c5cf76.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/MudanSprite.png"
-dest_files=["res://.godot/imported/MudanSprite.png-2c031eecf9db431e6ddee479c613ba9a.ctex"]
+source_file="res://Assets/characters/mouse_sprite_sheet.png"
+dest_files=["res://.godot/imported/mouse_sprite_sheet.png-2f21e5e3dbd56f83873e719863c5cf76.ctex"]
 
 [params]
 

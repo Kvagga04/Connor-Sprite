@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=4 uid="uid://jd1r1pc2biet"]
 
-[ext_resource type="TileSet" uid="uid://c4hbn8486hwok" path="res://Assets/tilemaps/Store.tres" id="1_e4l0y"]
+[ext_resource type="TileSet" uid="uid://c4hbn8486hwok" path="res://Assets/tilemaps/store.tres" id="1_e4l0y"]
 [ext_resource type="PackedScene" uid="uid://htlmse820a00" path="res://Scenes/ConnorSprite.tscn" id="2_he66o"]
 [ext_resource type="PackedScene" uid="uid://dcagiapnypxya" path="res://Scenes/MouseSprite.tscn" id="3_14ayq"]
 
