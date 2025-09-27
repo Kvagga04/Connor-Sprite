@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhb3uiiuvxegf"]
+
+[ext_resource type="Texture2D" uid="uid://cmayl1fftqgjx" path="res://Assets/characters/PeteSprite.png" id="1_fv5ku"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ryri"]
+atlas = ExtResource("1_fv5ku")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dbumo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ryri")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_dbumo")
+animation = &"Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
