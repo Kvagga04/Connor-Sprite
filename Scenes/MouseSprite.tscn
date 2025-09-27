@@ -1,0 +1,92 @@
+[gd_scene load_steps=12 format=3 uid="uid://dcagiapnypxya"]
+
+[ext_resource type="Texture2D" uid="uid://d24d6jlvectxg" path="res://Assets/characters/MouseSpriteSheet.png" id="1_83owy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w1350"]
+atlas = ExtResource("1_83owy")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wu07w"]
+atlas = ExtResource("1_83owy")
+region = Rect2(16, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7sqya"]
+atlas = ExtResource("1_83owy")
+region = Rect2(32, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u3d7l"]
+atlas = ExtResource("1_83owy")
+region = Rect2(0, 32, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0fuj"]
+atlas = ExtResource("1_83owy")
+region = Rect2(16, 32, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qf8l"]
+atlas = ExtResource("1_83owy")
+region = Rect2(32, 32, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_irhv7"]
+atlas = ExtResource("1_83owy")
+region = Rect2(0, 64, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nuuwy"]
+atlas = ExtResource("1_83owy")
+region = Rect2(16, 64, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_81hsa"]
+atlas = ExtResource("1_83owy")
+region = Rect2(32, 64, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sta3h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w1350")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wu07w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7sqya")
+}],
+"loop": true,
+"name": &"Walk_Down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u3d7l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0fuj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0qf8l")
+}],
+"loop": true,
+"name": &"Walk_Left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_irhv7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nuuwy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_81hsa")
+}],
+"loop": true,
+"name": &"Walk_Right",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_sta3h")
+animation = &"Walk_Down"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]

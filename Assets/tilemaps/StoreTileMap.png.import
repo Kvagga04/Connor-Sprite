@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5vplkvwkyguq"
-path="res://.godot/imported/ConnorSpriteSheet.png-fc69fecb0456d0f92a82c337ff22fb26.ctex"
+uid="uid://dt68ks34ca2ax"
+path="res://.godot/imported/StoreTileMap.png-916a50576a8e506f2f8803dd0a9ffb60.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/ConnorSpriteSheet.png"
-dest_files=["res://.godot/imported/ConnorSpriteSheet.png-fc69fecb0456d0f92a82c337ff22fb26.ctex"]
+source_file="res://Assets/tilemaps/StoreTileMap.png"
+dest_files=["res://.godot/imported/StoreTileMap.png-916a50576a8e506f2f8803dd0a9ffb60.ctex"]
 
 [params]
 

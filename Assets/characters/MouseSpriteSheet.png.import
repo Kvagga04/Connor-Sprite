@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5vplkvwkyguq"
-path="res://.godot/imported/ConnorSpriteSheet.png-fc69fecb0456d0f92a82c337ff22fb26.ctex"
+uid="uid://d24d6jlvectxg"
+path="res://.godot/imported/MouseSpriteSheet.png-6d46696072856315be4e4142e20d1936.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/ConnorSpriteSheet.png"
-dest_files=["res://.godot/imported/ConnorSpriteSheet.png-fc69fecb0456d0f92a82c337ff22fb26.ctex"]
+source_file="res://Assets/characters/MouseSpriteSheet.png"
+dest_files=["res://.godot/imported/MouseSpriteSheet.png-6d46696072856315be4e4142e20d1936.ctex"]
 
 [params]
 
